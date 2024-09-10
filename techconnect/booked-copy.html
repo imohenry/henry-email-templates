@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<title>Interswitch Impartner</title>
+	<meta content="width=device-width" name="viewport">
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style type="text/css">
+	       
+	       @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Bold_fjps3v.woff2") format("woff2");
+	   font-weight: bold;
+	   font-style: normal;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328699/Averta%20Font/Web/woff2/Averta_Standard_Bold_Italic_gsplfc.woff2") format("woff2");
+	   font-weight: bold;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Extra_Thin_frscqe.woff2") format("woff2");
+	   font-weight: 100;
+	   font-style: normal;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328742/Averta%20Font/Web/woff2/mlp94dmbht08x8d5pdti.woff2") format("woff2");
+	   font-weight: 600;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328742/Averta%20Font/Web/woff2/wsxdgntod5picljytufl.woff2") format("woff2");
+	   font-weight: 100;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328699/Averta%20Font/Web/woff2/Averta_Standard_Thin_gnbjqs.woff2") format("woff2");
+	   font-weight: 300;
+	   font-style: normal;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Regular_uyuvha.woff2") format("woff2");
+	   font-weight: normal;
+	   font-style: normal;
+	   }
+	   @font-face {
+	   font-family: "Averta Extrathin";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Extra_Thin_frscqe.woff2") format("woff2");
+	   font-weight: 100;
+	   font-style: normal;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Black_Italic_dtoon8.woff2") format("woff2");
+	   font-weight: 900;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328702/Averta%20Font/Web/woff2/Averta_Standard_Black_kkxryt.woff2") format("woff2");
+	   font-weight: 900;
+	   font-style: normal;
+	   }
+	   @font-face {
+	   font-family: "Averta Extrathin";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Extra_Thin_Italic_erytrw.woff2") format("woff2");
+	   font-weight: 100;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Semibold_wthhnt.woff2") format("woff2");
+	   font-weight: 600;
+	   font-style: normal;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Extra_Bold_Italic_zzbt13.woff2") format("woff2");
+	   font-weight: 800;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328699/Averta%20Font/Web/woff2/Averta_Standard_Thin_Italic_lsuecc.woff2") format("woff2");
+	   font-weight: 300;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Regular_Italic_mymyyp.woff2") format("woff2");
+	   font-weight: normal;
+	   font-style: italic;
+	   }
+	   @font-face {
+	   font-family: "Averta";
+	   src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Extra_Bold_hrmzbd.woff2") format("woff2");
+	   font-weight: 800;
+	   font-style: normal;
+	   }
+	       
+	       #outlook a {
+	         padding: 0;
+	       }
+	   
+	       
+	       .ReadMsgBody {
+	         width: 100%;
+	       }
+	   
+	       .ExternalClass {
+	         width: 100%;
+	       }
+	   
+	       
+	       .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+	         line-height: 100%;
+	       }
+	   
+	       
+	       blockquote .original-only, .WordSection1 .original-only {
+	         display: none !important;
+	       }
+	   
+	       
+	       .appleLinkIgnore a {
+	         color: #222222;
+	         text-decoration: none;
+	       }
+	   
+	       .appleFooter a {
+	         color: #797979;
+	         text-decoration: none;
+	       }
+	   
+	       
+	       @media screen and (max-width: 630px) {
+	   
+	         
+	         table[class="wrapper"] {
+	           width: 100% !important;
+	         }
+	   
+	         
+	         td[class="logo"] {
+	           text-align: left !important;
+	           padding: 0 !important;
+	         }
+	   
+	         td[class="logo"] img {
+	           margin: 0 auto !important;
+	           text-align: center !important;
+	           display: block !important;
+	         }
+	   
+	         .mobile-hide {
+	           /* display: none !important;
+	           overflow: hidden !important;
+	           float: left !important;
+	           font-size: 1px !important;
+	           line-height: 1px !important;
+	           max-width: 0 !important;
+	           opacity: 0 !important; */
+	           color: #ffffff !important;
+	         }
+	         .responsive-table {
+	           width: 100% !important;
+	         }
+	   
+	         
+	         .text-padding-left {
+	           padding-left: 5% !important;
+	         }
+	   
+	         .text-padding-right, .mobile-text-padding-right {
+	           padding-right: 5% !important;;
+	         }
+	   
+	         .standard-line {
+	           /* padding: 10px 0 14px 0 !important; */
+	           line-height: 24px !important;
+	   
+	         }
+	         .list {
+	           padding: 5px 22px 16px 0;
+	           line-height: 24px;
+	         }
+	   
+	         .mobile-no-padding {
+	           padding: 0 0 0 0 !important;
+	         }
+	   
+	         
+	        
+	         .header {
+	           height: 120px !important;
+	         }
+	   
+	         td[class="heading"] {
+	           padding: 35px 0 9px 0 !important;
+	           font-size: 24px !important;
+    			line-height: 35px !important;
+	           text-align: left !important;
+	         }
+	   
+	         .sub-heading {
+	           font-size: 21px !important;
+	           line-height: 24px !important;
+	           padding: 32px 0 16px 0 !important;
+	         }
+	   
+	         .sub-heading {
+	           font-size: 21px !important;
+	           line-height: 24px !important;
+	           padding: 32px 0 16px 0 !important;
+	         }
+	   
+	         .label {
+	           font-size: 12px !important;
+	           line-height: 12px !important;
+	           padding: 7px 0 5px 0 !important;
+	         }
+	   
+	         .body-text-small {
+	           color: #00425f !important;
+	         }
+	   
+	         .body-text {
+	           color: #00425f !important;
+	           text-align: left !important;
+	           font-size: 16px !important;
+	         }
+	   
+	   
+	         .footer-links {
+	           letter-spacing: 0 !important;
+	           font-weight: 600 !important;
+	           padding: 34px 55px 0 55px !important;
+	         }
+	   
+	         .footer-unsubscribe {
+	           font-size: 11px !important;
+	           padding-top: 7px !important;
+	           padding-bottom: 22px !important;
+	         }
+	   
+	         .footer img {
+	           padding: 5px 0 44px 0 !important;
+	   
+	         }
+	         
+	         td[class="mobile-wrapper"] {
+	           padding: 10px 5% 15px 5% !important;
+	         }
+	   
+	         table[class="mobile-button-container"] {
+	           margin: 0 auto !important;
+	           width: 100% !important;
+	         }
+	   
+	         .button a {
+	           font-size: 12px !important;
+	         }
+	   
+	         .black-button {
+	           border-top: 12px solid #ee312a !important;
+	           border-bottom: 12px solid #ee312a !important;
+	         }
+	         
+	         .button {
+	           width: 70% !important;
+	           padding: 5px 0 19px 0 !important;
+	           line-height: 24px !important;
+	           border: 0 !important;
+	           font-size: 12px !important;
+	           text-align: center !important;
+	           max-width: 400px !important;
+	           font-weight: 400 !important;
+	         }
+	   
+	         .large-padding-bottom {
+	           padding-bottom: 29px !important;
+	         }
+	         .header {
+	           height: 120px !important;
+	         }
+	         .full-width img {
+	           width: 100% !important;
+	           height: auto !important;
+	         }
+	         .image-heading {
+	           padding-left: 22px !important;
+	         }
+	         .two-column img {
+	           width: 100% !important;
+	           height: auto !important;
+	         }
+	         img.mobile-full-width {
+	           width: 100% !important;
+	           height: auto !important;
+	         }
+	         .list {
+	           padding: 5px 22px 16px 0 !important;
+	           line-height: 24px !important;
+	         }
+	         .mobile-show {
+	           display: table-cell !important;
+	           width: 100% !important;
+	           height: auto !important;
+	           line-height: 22px !important;
+	           max-height: 616px !important;
+	           max-width: 616px  !important;
+	           opacity: 1 !important;
+	           overflow: visible;
+	         }
+	         .mobile-show img {
+	           display: block !important;
+	           width: 100% !important;
+	           height: auto !important;
+	           line-height: 22px !important;
+	           max-height: 616px !important;
+	           max-width: 616px  !important;
+	           opacity: 1 !important;
+	           overflow: visible;
+	         }
+	         .left-column-text {
+	           padding: 22px 5% !important;
+	         }
+	         .right-column-text {
+	           padding: 22px 5% !important;
+	         }
+	       }
+	       table {
+	         border-collapse: collapse;
+	       }
+
+		   li::marker {
+			color: #00b8de;
+			padding-right: 20px !important;
+        	/* font-size: 18px; */
+      }
+	  @media (max-width: 390px) {
+		.reduced-link-size {
+			font-size: 13px;
+		}
+	  }
+	</style>
+</head>
+<body style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;height: 100% !important;margin: 0;padding: 0;width: 100% !important;">
+	<span class="hidden remove-from-plain-text" style="display: none;font-size: 1px;line-height: 1px;max-width: 0;max-height: 0;min-width: 0;min-height: 0;height: 0;width: 0;opacity: 0;overflow: hidden;color: #ffffff;"></span>
+	<div style="display:none; white-space:nowrap; font:15px courier; line-height:0;">
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	</div>
+	<table align="center" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;min-width: 100%" width="100%">
+		<tbody>
+			<tr>
+				<td bgcolor="#EDEDED" class="mobile-hide" colspan="3" height="44" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;"></td>
+			</tr>
+			<tr>
+				<td bgcolor="#EDEDED" class="mobile-hide spacer" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;min-width: 10px;width: 1%;" width="58"></td>
+				<td style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+					<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+						<tbody>
+							<tr>
+								<td align="center" bgcolor="#EDEDED" class="mobile-no-padding header-wrapper" height="115" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+									<table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="616">
+										<tbody>
+											<!-- <tr>
+												<td bgcolor="#DADADA" class="empty-cell" colspan="2" height="5" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-size: 5px;line-height: 5px;max-height: 5px;" width="616">&nbsp;</td>
+											</tr> -->
+											<tr>
+												<td bgcolor="#FFFFFF" class="logo" height="110" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+													<table border="0" cellpadding="0" cellspacing="0" class="mobile-no-padding header" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;height: 110px;" width="100%">
+														<tbody>
+															<tr>
+																<!-- <td align="left" class="mobile-no-padding text-padding-left" height="110" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-left: 58px;" width="180">
+																	<a href="https://www.interswitchgroup.com/" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #000000;" target="_blank"><img alt="Interswitch" border="0" height="auto" src="https://gallery.mailchimp.com/49205f91397a86e798f06416b/images/f4e70acb-e075-4cd0-9620-b4862240f3e0.png" style="padding-top: 3px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="130"></a>
+																</td> -->
+																<td align="center" class="mobile-hide mobile-no-padding text-padding-right" height="110" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-right: 5px;" width="450">
+																	<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+																		<tbody>
+																			<tr>
+
+																				<td align="left" class="mobile-no-padding text-padding-left" height="110" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-left: 58px;" width="180">
+																					<a href="https://www.interswitchgroup.com/techconnect" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #000000;" target="_blank"><img alt="Interswitch" border="0" height="auto" src="https://mcusercontent.com/a3d687905d2a2c4b266d653e8/images/d061dd09-4344-84c3-1f0e-7f841d6efd3c.png" style="padding-top: 3px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" width="130"></a>
+																				</td>
+																				<!-- <td align="right" class="category-wrapper" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-bottom: 2px;"><span class="category-heading" style="color: #747678;text-decoration: none;text-transform: uppercase;padding: 6px 0 5px 0;letter-spacing: 2px;line-height: 22px;font-weight: normal;font-size: 11px;font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif;">Interswitch Channel<br>
+																				Partner Program</span>
+																				</td> -->
+
+
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+						<tbody>
+							<tr>
+								<td align="center" bgcolor="#EDEDED" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+									<table border="0" cellpadding="0" cellspacing="0" class="gmail-spacer responsive-table" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="616">
+										<tbody>
+											<tr>
+												<td style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+													<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+														<tbody>
+															<tr>
+																<td bgcolor="#F7F7F7" class="text-padding-left text-padding-right large-padding-bottom" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt; padding-left: 45px;padding-bottom: 22px;padding-right: 45px;">
+																	<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+																		<tbody>
+																			<tr style=" border-radius: 7px;">
+																				<div style="margin: 0 auto; max-width: 700px;">
+																				<img src="https://mcusercontent.com/a3d687905d2a2c4b266d653e8/images/a6cc6898-5c7b-8f8e-31b6-37f02dc0dcc8.png" style="width: 100%; border-radius: 7px; margin-top: 40px; margin-bottom: 10px;" alt="">
+																			</div>
+																				<td align="left" class="heading" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;word-wrap: break-word; font-size: 30px;font-weight: 600;color: #00425f;font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica; padding: 24px 0 14px 0;text-align: left;letter-spacing: 0.02em;">We have booked your seat at the Interswitch TechConnect 3.0</td>
+																			</tr>
+																			<tr>
+																				<td align="left" class="standard-line body-text" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding: 6px 0 16px 0;line-height: 22px;font-weight: 300; font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 14px;letter-spacing: 0.02em;color: #00425f;text-align: justify;">Congratulations!<br>
+																				<br>
+																			
+																				You have successfully registered for the Interswitch TechConnect 3.0 (South-West Edition).
+																				<br><br>
+																				In this distinctive edition, we are geared towards <strong> Adapting, Scaling and Advancing with Fintech</strong>.
+																				<br><br>
+																				<!-- Key highlights of the event include:
+																				<ul style="padding-left: 14px;">
+																					<li style="padding-left: 8px;">
+																						Connecting with event speakers, decision-makers, key players, entrepreneurs, investors, and fintech enthusiasts. 
+																						Build lasting relationships that could spark future collaborations and mutually beneficial partnerships.
+																					</li>
+																					<li style="padding-left: 8px;">
+																						Gaining valuable insights from top-notch speakers and experts who will share their experiences, trends, and strategies in the ever-evolving fintech landscape.
+																					</li>
+																					<li style="padding-left: 8px;">
+																						Discovering game-changing products that will drive growth and advancement for your organisation.
+																					</li>
+																				</ul>	 -->
+																				<strong style="color: #00b8de;">Event Details</strong>
+																				<br>
+																				<strong>Theme:</strong> Adapting, Scaling and Advancing with Fintech
+																				<br>
+																			 	<strong>Date:</strong> Thursday 7th September 2023
+																				<br>
+																				<strong>Time:</strong> 9:00am Prompt
+																				<br>
+																				<strong>Venue:</strong> International Conference Centre, Ibadan.
+																				<br>
+																				
+																																		</tr>
+                                      <!-- <tr>
+																				<td align="left" class="button" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding: 0 0 22px 0;line-height: 22px;">
+																					<table border="0" cellpadding="0" cellspacing="0" class="responsive-table" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+																						<tbody>
+																							<tr>
+																								<td align="left" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+																									<a class="black-button"  href="https://mcusercontent.com/a3d687905d2a2c4b266d653e8/files/991d953c-64ef-ba72-c706-869bd6f6e23b/interswitch_techconnect_3_0.ics" download="Smart fuel brochure" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #000000;font-size: 10px;font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight: 500;letter-spacing: 1px;text-decoration: none;display: inline-block;text-transform: uppercase;text-align: left;border-top: 11px solid #E32B26; border-bottom: 11px solid #E32B26; border-left: 22px solid #E32B26; border-right: 22px solid #E32B26; background-color: #E32B26; color: #ffffff ;font-size: 11px;font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight: 500;letter-spacing: 4px;text-decoration: none;padding: 0 19px;display: inline-block;text-transform: uppercase;text-align: left; border-radius: 7px;" target="_blank">Add to calendar</a>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					
+																				</td> -->
+																				
+																			</tr>
+																			
+																		</tbody>
+																	</table>
+																	
+																	
+																</td>
+																<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important; background-color: #fff; border-bottom-left-radius: 7px; border-bottom-right-radius: 7px;" width="100%">
+																	<tbody>
+																		<!-- <tr>
+																			<td align="left" class="sub-heading" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-size: 21px;font-weight: 200;color: #00b8de;font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif;padding: 26px 0 18px 0;letter-spacing: 0.02em;line-height: 22px;">We’re here to help</td>
+																		</tr> -->
+																		<tr>
+																			<td align="left" class="standard-line body-text text-padding-left text-padding-right large-padding-bottom" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding: 6px 0 16px 0;line-height: 22px; font-weight: 300;font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 14px;letter-spacing: 0.02em;color: #00425f;text-align: left; padding-top: 22px; padding-left: 45px;padding-bottom: 22px;padding-right: 45px;">
+																				If you would like more clarifications about the event, please RSVP for prompt attention. 
+																				<br>
+																				Email - <strong> <a class="reduced-link-size" href="mailto:adedayo.adelegan@interswitchgroup.com" style="text-decoration: none; color:#E32B26">adedayo.adelegan@interswitchgroup.com</a></strong> or  <strong> <a class="reduced-link-size" href="mailto:eloho.okiomah@interswitchgroup.com" style="text-decoration: none; color:#E32B26">Eloho.Okiomah@interswitchgroup.com</a></strong> <br>
+																				<br>
+																				Phone number - <strong> <a class="reduced-link-size" href="tel:+234 809 944 1617" style="text-decoration: none; color:#E32B26"> +234 809 944 1617 </a></strong> or  <strong> <a class="reduced-link-size" href="tel:+2348055338973" style="text-decoration: none; color:#E32B26"> +2348055338973 </a></strong>
+																				<br><br>
+																				We look forward to hosting you.
+																				<br><br>
+																				Kind regards,
+																				<br>
+																				<strong> The Interswitch TechConnect Team </strong>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				
+				<td bgcolor="#EDEDED" class="mobile-hide spacer" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;min-width: 10px;width: 1%;" width="58"></td>
+			</tr>
+
+			
+			<tr>
+				<td class="footer" colspan="3" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+					<table border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;" width="100%">
+						<tbody>
+							<tr>
+								<td align="center" bgcolor="#EDEDED" class="text-padding-left text-padding-right" height="115" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-left: 58px;padding-right: 58px;">
+									<table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+										<tr>
+											<td align="center" class="footer-unsubscribe" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #797979;padding: 6px 0 10px 0;font-family: 'Averta', 'Lexend', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;" valign="middle"><span class="appleFooter">1648C Oko Awo St, Victoria Island 106104, Lagos</span></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Interswitch TechConnect 3.0\nDate and Time - Sep 21\, 2023 9:00 AM to 4:00 PM\nVenue - Bridgewaters Hotel, Plot C/2B Garden Avenue\,  G.R.A, Enugu\nAdapting\, Scaling and Advancing with Fintech.\n
+DTSTART;VALUE=DATE:20230921
+DTEND;VALUE=DATE:20230921
+LOCATION:Bridgewaters Hotel, Plot C/2B Garden Avenue, G.R.A, Enugu
+SUMMARY;LANGUAGE=en-us:Interswitch TechConnect 3.0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER:-PT1000M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

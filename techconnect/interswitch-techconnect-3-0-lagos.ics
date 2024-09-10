@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Interswitch TechConnect 3.0\nDate and Time - Oct 12\, 2023 9:00 AM to 4:00 PM\nVenue - Lagos Oriental Hotel\, Epe Expressway, Victoria Island, Lagos\nAdapting\, Scaling and Advancing with Fintech.\n
+DTSTART;VALUE=DATE:20231012
+DTEND;VALUE=DATE:20231012
+LOCATION:Lagos Oriental Hotel, 3 Lekki - Epe Expressway, Victoria Island, Lagos
+SUMMARY;LANGUAGE=en-us:Interswitch TechConnect 3.0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER:-PT1000M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

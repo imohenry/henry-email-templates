@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Interswitch TechConnect 3.0\nDate and Time - Sep 13\, 2023 9:00 AM to 4:00 PM\nVenue - Abuja Continental Hotel, 1, Ladi Kwali Way\, Maitama, Abuja\nAdapting\, Scaling and Advancing with Fintech.\n
+DTSTART;VALUE=DATE:20230913
+DTEND;VALUE=DATE:20230913
+LOCATION:Abuja Continental Hotel, 1, Ladi Kwali Way, Maitama, Abuja
+SUMMARY;LANGUAGE=en-us:Interswitch TechConnect 3.0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER:-PT1000M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
