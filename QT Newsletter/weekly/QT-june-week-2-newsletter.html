@@ -1,0 +1,895 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Resets -->
+    <style type="text/css">
+      @media screen {
+        @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Bold_fjps3v.woff2") format("woff2"),
+              url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Bold_fjps3v.woff2") format("woff");
+          font-weight: bold;
+          font-style: normal;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328699/Averta%20Font/Web/woff2/Averta_Standard_Bold_Italic_gsplfc.woff2") format("woff2");
+          font-weight: bold;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Extra_Thin_frscqe.woff2") format("woff2");
+          font-weight: 100;
+          font-style: normal;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328742/Averta%20Font/Web/woff2/mlp94dmbht08x8d5pdti.woff2") format("woff2");
+          font-weight: 600;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328742/Averta%20Font/Web/woff2/wsxdgntod5picljytufl.woff2") format("woff2");
+          font-weight: 100;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328699/Averta%20Font/Web/woff2/Averta_Standard_Thin_gnbjqs.woff2") format("woff2");
+          font-weight: normal;
+          font-style: normal;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Regular_uyuvha.woff2") format("woff2");
+          font-weight: normal;
+          font-style: normal;
+          }
+          @font-face {
+          font-family: "Averta Extrathin";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Extra_Thin_frscqe.woff2") format("woff2");
+          font-weight: 100;
+          font-style: normal;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Black_Italic_dtoon8.woff2") format("woff2");
+          font-weight: 900;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328702/Averta%20Font/Web/woff2/Averta_Standard_Black_kkxryt.woff2") format("woff2");
+          font-weight: 900;
+          font-style: normal;
+          }
+          @font-face {
+          font-family: "Averta Extrathin";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328700/Averta%20Font/Web/woff2/Averta_Standard_Extra_Thin_Italic_erytrw.woff2") format("woff2");
+          font-weight: 100;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Semibold_wthhnt.woff2") format("woff2");
+          font-weight: 600;
+          font-style: normal;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Extra_Bold_Italic_zzbt13.woff2") format("woff2");
+          font-weight: 800;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328699/Averta%20Font/Web/woff2/Averta_Standard_Thin_Italic_lsuecc.woff2") format("woff2");
+          font-weight: 300;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Regular_Italic_mymyyp.woff2") format("woff2");
+          font-weight: normal;
+          font-style: italic;
+          }
+          @font-face {
+          font-family: "Averta";
+          src: url("https://res.cloudinary.com/iswdesign/raw/upload/v1637328701/Averta%20Font/Web/woff2/Averta_Standard_Extra_Bold_hrmzbd.woff2") format("woff2");
+          font-weight: 800;
+          font-style: normal;
+          }
+      }
+      </style>
+    <style type="text/css" data-premailer="ignore">
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+      #outlook a {
+        padding: 0;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      img {
+        border: 0;
+        max-width: 100%;
+        height: auto;
+        outline: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        line-height: 100%;
+      }
+      #backgroundTable {
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+      }
+    </style>
+
+    <!-- Main styles -->
+    <style type="text/css">
+      /**
+   * Generic
+   */
+      .main {
+        font-family: 'Averta', sans-serif;
+        letter-spacing: 0;
+        border-radius: 10px;
+      }
+      .main .main-td {
+        padding: 40px 60px;
+        border: 1px solid #E1E2E7;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0);
+        border-radius: 10px;
+      }
+      table {
+        border-spacing: 0;
+        border-collapse: separate;
+        table-layout: fixed;
+      }
+      td {
+        font-size: 16px;
+        padding: 0;
+        font-family: 'Averta', sans-serif;
+      }
+      a {
+        border: none;
+        outline: none !important;
+      }
+      /**
+   * Header
+   */
+      .header td img {
+        padding: 15px 0 30px;
+        text-align: center;
+      }
+      .header .logo {
+        text-align: center;
+      }
+      /**
+   * Content
+   */
+      .content-td {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0;
+        color: #161618;
+      }
+      .content-td> :first-child {
+        margin-top: 0;
+      }
+      .content-td h1 {
+        font-size: 21px;
+        line-height: 27px;
+        color: #161618;
+        margin-bottom: 16px;
+        margin-top: 40px;
+        font-weight: 700;
+      }
+      .content-td h2 {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 600;
+        color: #161618;
+        margin-top: 20px;
+        margin-bottom: 16px;
+      }
+      .content-td h1+h2 {
+        margin-top: 0px !important;
+      }
+      .content-td h2+h1 {
+        margin-top: 0px !important;
+      }
+      .content-td h3,
+      .content-td h4,
+      .content-td h5 {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+      /* .content-td p {
+        margin: 0 0 40px 0;
+      } */
+      .content-td p img,
+      .content-td h1 img,
+      .content-td h2 img,
+      .content-td li img,
+      .content-td .intercom-h2b-button img {
+        margin: 0;
+        padding: 0;
+      }
+      .content-td p.intro {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .content-td blockquote {
+        margin: 40px 0;
+        font-style: italic;
+        color: #8C8C8C;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 30px;
+        font-family: Georgia, sans-serif;
+        quotes: none;
+      }
+      .content-td blockquote a {
+        color: #8C8C8C;
+      }
+      .content-td ul {
+        list-style: disc;
+        margin: 0 0 20px 40px;
+        padding: 0;
+        text-align: justify;
+      }
+      .content-td ol {
+        list-style: decimal;
+        margin: 0 0 20px 19px;
+        padding: 0;
+        text-align: justify;
+      }
+      .content-td img {
+        max-width: 100%;
+        margin: 0;
+      }
+      .content-td .intercom-container {
+        margin-bottom: 16px;
+      }
+      .content-td hr {
+        border: none;
+        border-top: 1px solid #DDD;
+        margin: 50px 30% 50px 30%;
+      }
+      .content-td table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 20px;
+      }
+      .content-td td,
+      .content-td th {
+        padding: none;
+        border: 1px solid #DADADA;
+        text-align: left;
+        vertical-align: top;
+      }
+      .content-td th {
+        font-weight: bold;
+        background: #F6F6F6;
+      }
+      .content-td a {
+        color: #644BFF;
+      }
+      .content td.content-td table.intercom-container {
+        margin: 20px 0;
+      }
+      .content td.content-td table.intercom-container.intercom-align-center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .content td.content-td table.intercom-container td {
+        background-color: #644BFF;
+        padding: none;
+        border-radius: 40px;
+        margin: 0;
+        border: none;
+      }
+      .content td.content-td table.intercom-container .intercom-h2b-button {
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        background-color: #644BFF;
+        border: none !important;
+        border-radius: 40px;
+      }
+      /**/
+      .content-td pre {
+        margin: 0 0 10px;
+        padding: 10px;
+        background-color: #f5f5f5;
+        overflow: auto;
+      }
+      .content-td pre code {
+        font-family: Courier, monospace;
+        font-size: 14px;
+        line-height: 1.4;
+        white-space: nowrap;
+      }
+      .footer-td {
+        text-align: center;
+        padding: 21px 30px 15px;
+      }
+      .footer-td p,
+      .footer-td a {
+        font-size: 12px;
+        color: #9095A2;
+        text-decoration: none;
+        font-weight: 300;
+      }
+      .footer-td p {
+        margin: 0 0 6px 0;
+      }
+      .footer-td p.address {
+        margin-top: 9px;
+        line-height: 1.5em;
+      }
+      .footer-td p.powered-by {
+        margin-top: 18px;
+      }
+      .footer-td p.unsub {
+        margin: 0;
+      }
+      .footer .unsub a {
+        text-decoration: underline;
+        display: block;
+        margin: 12px 0 0;
+      }
+      p.unsub a {
+        text-decoration: underline;
+      }
+      .footer-td p.powered-by a {
+        font-weight: bold;
+      }
+      .footer-td textarea {
+        text-decoration: none;
+        font-size: 12px;
+        color: #9095A2;
+        font-family: Helvetica, Arial, sans-serif;
+        padding: 9px 0;
+        font-weight: 300;
+        line-height: normal;
+      }
+      a.intercom-h2b-button {
+        background-color: #644BFF;
+        font-size: 16px;
+        color: #FFF;
+        font-weight: 500;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 100px;
+        padding: 15px 48px;
+      }
+    </style>
+
+    <!-- Responsive-->
+    <style type="text/css" data-premailer="ignore">
+      @media screen and (max-width: 595px) {
+        body {
+          padding: 10px !important;
+        }
+        .main {
+          width: 100% !important;
+        }
+        .main .main-td {
+          padding: 20px !important;
+        }
+        .header td {
+          text-align: center;
+        }
+      }
+      .content-td blockquote+* {
+        margin-top: 20px !important;
+      }
+      .ExternalClass .content-td h1 {
+        padding: 20px 0 !important;
+      }
+      .ExternalClass .content-td h2 {
+        padding: 0 0 5px !important;
+      }
+      .ExternalClass .content-td p {
+        padding: 10px 0 !important;
+      }
+      .ExternalClass .content-td .intercom-container {
+        padding: 5px 0 !important;
+      }
+      .ExternalClass .content-td hr+* {
+        padding-top: 30px !important;
+      }
+      .ExternalClass .content-td ol,
+      .ExternalClass .content-td ul {
+        padding: 0 0 20px 40px !important;
+        margin: 0 !important;
+      }
+      .ExternalClass .content-td ol li,
+      .ExternalClass .content-td ul li {
+        padding: 3px 0 !important;
+        margin: 0 !important;
+      }
+      .ExternalClass table .footer-td p {
+        padding: 0 0 6px 0 !important;
+        margin: 0 !important;
+      }
+      .ExternalClass table .footer-td p.powered-by,
+      .ExternalClass table .footer-td p.unsub {
+        padding-top: 15px;
+      }
+    </style>
+
+    <!-- Outlook fix -->
+
+    <!--[if gte mso 9]>
+    <style type="text/css">
+      table {
+        border-collapse: collapse !important;
+      }
+      td {
+        border-collapse: collapse !important;
+      }
+    </style>
+<![endif]-->
+    <style type="text/css">
+      .intercom-align-right {
+        text-align: right !important;
+      }
+      .intercom-align-center {
+        text-align: center !important;
+      }
+      .intercom-align-left {
+        text-align: left !important;
+      }
+      /* Over-ride for RTL */
+      .right-to-left .intercom-align-right {
+        text-align: left !important;
+      }
+      .right-to-left .intercom-align-left {
+        text-align: right !important;
+      }
+      .right-to-left .intercom-align-left {
+        text-align: right !important;
+      }
+      .right-to-left li {
+        text-align: right !important;
+        direction: rtl;
+      }
+      .right-to-left .intercom-align-left img,
+      .right-to-left .intercom-align-left .intercom-h2b-button {
+        margin-left: 0 !important;
+      }
+      .intercom-attachment,
+      .intercom-attachments,
+      .intercom-attachments td,
+      .intercom-attachments th,
+      .intercom-attachments tr,
+      .intercom-attachments tbody,
+      .intercom-attachments .icon,
+      .intercom-attachments .icon img {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .intercom-attachments {
+        margin: 10px 0 !important;
+      }
+      .intercom-attachments .icon,
+      .intercom-attachments .icon img {
+        width: 16px !important;
+        height: 16px !important;
+      }
+      .intercom-attachments .icon {
+        padding-right: 5px !important;
+      }
+      .intercom-attachment {
+        display: inline-block !important;
+        margin-bottom: 5px !important;
+      }
+      .intercom-interblocks-content-card {
+        width: 334px !important;
+        max-height: 136px !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+        border-radius: 20px !important;
+        font-size: 16px !important;
+        border: 1px solid #e0e0e0 !important;
+      }
+      .intercom-interblocks-link,
+      .intercom-interblocks-article-card {
+        text-decoration: none !important;
+      }
+      .intercom-interblocks-article-icon {
+        width: 22.5% !important;
+        height: 136px !important;
+        float: left !important;
+        background-color: #fafafa !important;
+        background-image: url('https://double-63009cf97781.intercom-mail.com/assets/article_book-1a595be287f73c0d02f548f513bfc831.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 32px !important;
+        background-position: center !important;
+      }
+      .intercom-interblocks-article-text {
+        width: 77.5% !important;
+        float: right !important;
+        background-color: #fff !important;
+      }
+      .intercom-interblocks-link-title,
+      .intercom-interblocks-article-title {
+        color: #519dd4 !important;
+        font-size: 15px !important;
+        margin: 16px 18px 12px !important;
+        line-height: 1.3em !important;
+        overflow: hidden !important;
+      }
+      .intercom-interblocks-link-description,
+      .intercom-interblocks-article-body {
+        margin: 0 18px 12px !important;
+        font-size: 14px !important;
+        color: #65757c !important;
+        line-height: 1.3em !important;
+      }
+      .intercom-interblocks-link-author,
+      .intercom-interblocks-article-author {
+        margin: 10px 15px !important;
+        height: 24px !important;
+        line-height: normal !important;
+      }
+      .intercom-interblocks-link-author-avatar,
+      .intercom-interblocks-article-author-avatar {
+        width: 16px !important;
+        height: 16px !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+        float: left;
+        margin-right: 5px;
+      }
+      .intercom-interblocks-link-author-avatar-image,
+      .intercom-interblocks-article-author-avatar-image {
+        width: 16px !important;
+        height: 16px !important;
+        border-radius: 50% !important;
+        margin: 0 !important;
+        vertical-align: top !important;
+        font-size: 12px !important;
+      }
+      .intercom-interblocks-link-author-name,
+      .intercom-interblocks-article-author-name {
+        color: #74848b !important;
+        margin: 0 0 0 5px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        overflow: hidden !important;
+      }
+      .intercom-interblocks-article-written-by {
+        color: #8897a4 !important;
+        margin: 1px 0 0 5px !important;
+        font-size: 12px !important;
+        overflow: hidden !important;
+        vertical-align: middle !important;
+        float: left !important;
+      }
+    </style>
+    <style>
+      .intercom-align-right {
+        text-align: right !important;
+      }
+      .intercom-align-center {
+        text-align: center !important;
+      }
+      .intercom-align-left {
+        text-align: left !important;
+      }
+      /* Over-ride for RTL */
+      .right-to-left .intercom-align-right {
+        text-align: left !important;
+      }
+      .right-to-left .intercom-align-left {
+        text-align: right !important;
+      }
+      .right-to-left .intercom-align-left {
+        text-align: right !important;
+      }
+      .right-to-left li {
+        text-align: right !important;
+        direction: rtl;
+      }
+      .right-to-left .intercom-align-left img,
+      .right-to-left .intercom-align-left .intercom-h2b-button {
+        margin-left: 0 !important;
+      }
+      .intercom-attachment,
+      .intercom-attachments,
+      .intercom-attachments td,
+      .intercom-attachments th,
+      .intercom-attachments tr,
+      .intercom-attachments tbody,
+      .intercom-attachments .icon,
+      .intercom-attachments .icon img {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .intercom-attachments {
+        margin: 10px 0 !important;
+      }
+      .intercom-attachments .icon,
+      .intercom-attachments .icon img {
+        width: 16px !important;
+        height: 16px !important;
+      }
+      .intercom-attachments .icon {
+        padding-right: 5px !important;
+      }
+      .intercom-attachment {
+        display: inline-block !important;
+        margin-bottom: 5px !important;
+      }
+      .intercom-interblocks-content-card {
+        width: 334px !important;
+        max-height: 136px !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+        border-radius: 20px !important;
+        font-size: 16px !important;
+        border: 1px solid #e0e0e0 !important;
+      }
+      .intercom-interblocks-link,
+      .intercom-interblocks-article-card {
+        text-decoration: none !important;
+      }
+      .intercom-interblocks-article-icon {
+        width: 22.5% !important;
+        height: 136px !important;
+        float: left !important;
+        background-color: #fafafa !important;
+        background-image: url('https://double-63009cf97781.intercom-mail.com/assets/article_book-1a595be287f73c0d02f548f513bfc831.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 32px !important;
+        background-position: center !important;
+      }
+      .intercom-interblocks-article-text {
+        width: 77.5% !important;
+        float: right !important;
+        background-color: #fff !important;
+      }
+      .intercom-interblocks-link-title,
+      .intercom-interblocks-article-title {
+        color: #519dd4 !important;
+        font-size: 15px !important;
+        margin: 16px 18px 12px !important;
+        line-height: 1.3em !important;
+        overflow: hidden !important;
+      }
+      .intercom-interblocks-link-description,
+      .intercom-interblocks-article-body {
+        margin: 0 18px 12px !important;
+        font-size: 14px !important;
+        color: #65757c !important;
+        line-height: 1.3em !important;
+      }
+      .intercom-interblocks-link-author,
+      .intercom-interblocks-article-author {
+        margin: 10px 15px !important;
+        height: 24px !important;
+        line-height: normal !important;
+      }
+      .intercom-interblocks-link-author-avatar,
+      .intercom-interblocks-article-author-avatar {
+        width: 16px !important;
+        height: 16px !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+        float: left;
+        margin-right: 5px;
+      }
+      .intercom-interblocks-link-author-avatar-image,
+      .intercom-interblocks-article-author-avatar-image {
+        width: 16px !important;
+        height: 16px !important;
+        border-radius: 50% !important;
+        margin: 0 !important;
+        vertical-align: top !important;
+        font-size: 12px !important;
+      }
+      .intercom-interblocks-link-author-name,
+      .intercom-interblocks-article-author-name {
+        color: #74848b !important;
+        margin: 0 0 0 5px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        overflow: hidden !important;
+      }
+      .intercom-interblocks-article-written-by {
+        color: #8897a4 !important;
+        margin: 1px 0 0 5px !important;
+        font-size: 12px !important;
+        overflow: hidden !important;
+        vertical-align: middle !important;
+        float: left !important;
+      }
+
+
+      li::marker {
+        /* content: ''; */
+        /* font-size: 18px; */
+      }
+    </style>
+  </head>
+  <body style="background-color: #FFF; margin: 0px; padding: 20px" bgcolor="F7F8F9">
+    <div style="color:transparent;visibility:hidden;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!important;display:none!important;line-height:0px!important;"><img border="0" width="1" height="1" src="" /></div>
+    <table cellspacing="0" border="0" cellpadding="0" align="center" width="600" bgcolor="white" class="main" style="border-collapse: separate; border-radius: 10px; border-spacing: 0; font-family: 'Averta', 'Inter', sans-serif; letter-spacing: 0; table-layout: fixed">
+      <tbody>
+        <tr>
+          <td class="main-td" style="border: 1px solid #e1e2e7; border-radius: 10px; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0); font-family: 'Averta', 'Inter', sans-serif; font-size: 16px; padding: 40px">
+
+            <!-- Header -->
+            <table width="100%" class="header" style="border-collapse: separate; border-spacing: 0; table-layout: fixed">
+              <tbody>
+                <tr>
+                  <td class="logo" style="font-family: 'Averta', 'Inter', sans-serif; font-size: 16px; padding: 0; text-align: center" align="center">
+                    <img src="https://mcusercontent.com/a3d687905d2a2c4b266d653e8/images/f457e9f1-341a-ec57-1ac7-75a0846d49e7.png" width="150" class="featured" style="padding: 15px 0 30px; text-align: center">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Main content -->
+            <table width="100%" class="content" style="border-collapse: separate; border-spacing: 0; table-layout: fixed">
+              <tbody>
+                <tr>
+                  <td class="content-td" style="color: #161618; font-family: 'Averta', 'Inter', sans-serif; font-size: 16px; line-height: 26px; padding: 0">
+                    <!-- <h2 class="intercom-align-center" style="color: #00425F; font-size: 24px; font-weight: 800; line-height: 38px; margin-bottom: px; margin-top: 0; text-align: center !important" align="center">Quickteller Business Weekly Roundup </h2> -->
+                    <!-- <h2 class="intercom-align-left" style="color: #00b8de; font-size: 12px; font-weight: 400; line-height: 26px; margin-top: 0; text-align: left !important; text-transform: uppercase; margin-bottom: 0" align="left">News and Updates</h2> -->
+                    <!-- <h2 class="intercom-align-left" style="color: #00b8de; font-size: 12px; font-weight: 400; line-height: 26px; margin-top: 0; text-align: left !important; text-transform: uppercase; margin-bottom: 0" align="left"> News and Updates </h2> -->
+                    <div class="intercom-container intercom-align-left" style="margin-bottom: 16px; text-align: left !important" align="left"><a target="_blank" href="#" style="border: none; color: #644BFF; outline: none !important"><img src="https://mcusercontent.com/a3d687905d2a2c4b266d653e8/images/673b3d56-b2e5-83f5-4079-b8a7bf8017e8.png" style="margin: 0; max-width: 100%; border-radius: 8px"></a></div>
+                    <h1 class="intercom-align-left" style="color: #00425F; font-size: 21px; font-weight: 700; line-height: 27px; margin-bottom: 16px; margin-top: 40px; text-align: left !important" align="left">Drive Business Growth with Quickteller Business</h1>
+                    <p class="intercom-align-left" style="text-align: left !important; font-size: 15px; padding-bottom: 20px;" align="left">
+                      Hello, {FirstName}
+                      <br><br>
+                      In today's competitive business landscape, data is the key to unlocking growth opportunities. With <a href="https://business.quickteller.com/" style="color: #00b8de; font-size: 15.5px; font-weight: 700; text-decoration: none;">Quickteller Business</a>, you can harness the power of data and make informed decisions to drive your business forward.
+                      <br><br>
+                      Here's how our metric and analytics features can help you
+                      <ol>
+                        <li>
+                         <strong>Sales Performance Tracking:</strong> Monitor your sales performance in real-time and gain insights into your top-selling products, peak sales periods, and customer buying behaviour. 
+                          Identify trends and patterns to optimize your product offerings and maximize profitability.
+                        </li>
+                        <br>
+                        <li>
+                         <strong> Customer Behaviour Analysis:</strong> Understand your customers better and tailor your marketing strategies accordingly. 
+                          Quickteller Business provides you with valuable information about customer purchasing habits, and order history, enabling you to create personalized experiences and build long-lasting relationships.
+                        </li>
+                        <br>
+                        <li>
+                         <strong> Financial Reports:</strong> Keep your finances in check with our comprehensive financial reports. Generate detailed reports on revenue, expenses, profit margins, and more. 
+                          Stay informed about your business's financial health and make data-backed decisions to drive growth.
+                        </li>
+                       
+                    </ol>
+                      <br> 
+                      Quickteller Business offers flexibility and compatibility, allowing you to leverage your data across multiple platforms.
+                      <br><br>
+                      Don't miss out on the power of data-driven decision-making.
+                      <br><br>
+                      <a href="https://business.quickteller.com/signin" style="color: #00b8de; font-size: 16.5px; font-weight: 700; text-decoration: none;"> Log in </a>and explore your dashboard to discover how Quickteller Business can empower your business with insightful reporting and analytics capabilities.
+                    </p>
+
+                    <!-- <p style="font-size: 15px;" align="left">
+                      Here are quick pointers you get to enjoy with our Smart POS
+                    </p>
+                    <p style="font-size: 15px; margin-left: 18px;" align="left">
+                     - &nbsp;&nbsp;  FREE Android POS Terminal
+                     <br>
+                     - &nbsp;&nbsp;  Enjoy multiple payment options - Card, Transfer, USSD, QR Code, Verve Paycode and Quickteller
+                     <br>
+                     - &nbsp;&nbsp;  Get instant payment confirmation on-device no matter payment option used
+                     <br>
+                     - &nbsp;&nbsp;  Access robust reporting and tracking tools
+                     <br>
+                     - &nbsp;&nbsp; Enjoy prompt and seamless settlement to any Nigerian bank account
+                     <br>
+                     - &nbsp;&nbsp; Enjoy 24/7 network connectivity
+                     <br>
+                     - &nbsp;&nbsp; Effective inventory and store management
+                     <br>
+                     - &nbsp;&nbsp; Sync online and offline storefronts
+
+                    </p> -->
+
+                    <table class="intercom-container intercom-align-center" align="center" style="border-collapse: collapse; border-spacing: 0; margin: 35px auto; margin-bottom: 40px;table-layout: fixed; text-align: center !important">
+                      <tbody >
+                        <tr>
+                          <td style="background-color: #EE312A; border: 1px none #dadada; border-radius: 8px; font-family: 'Averta', 'Inter', sans-serif; font-size: 16px; margin: 0; padding: none; text-align: left; vertical-align: top; " align="left" bgcolor="#644BFF" valign="top">
+                            <a class="intercom-h2b-button" target="_blank" href="https://business.quickteller.com/" style="background-color: #EE312A; border: none; border-radius: 8px; color: white; display: inline-block; font-size: 16px; font-weight: 600; outline: none !important; padding: 15px 48px; text-decoration: none">Log in</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <div class="intercom-align-left" style="text-align: left !important; font-size: 15px; " align="left">
+                    </div>
+
+
+                    <!-- <div class="intercom-container intercom-align-left" style="margin-bottom: 16px; text-align: left !important" align="left"><a target="_blank" href="" style="border: none; color: #644BFF; outline: none !important"><img src="https://mcusercontent.com/a1ea9a1f2e247f97189302b80/images/9c439d2e-e5ec-4521-ecbf-6cb5fed869c4.gif" style="margin: 0; max-width: 100%; border-radius: 8px"></a></div> -->
+                    <!-- <h1 class="intercom-align-left" style="color: #161618; font-size: 21px; font-weight: 700; line-height: 27px; margin-bottom: 16px; margin-top: 40px; text-align: left !important" align="left">Football Is Back, Cash In on the Excitement</h1>
+                    <p class="intercom-align-left" style="margin: 0 0 40px; text-align: left !important; font-size: 15px;" align="left">The football excitement never stops!!!
+                      <br><br>
+                      English Premiership, Spanish La Liga, German Bundesliga, Italian Serie A, UEFA Champions League, UEFA Europa League have all started. The drama is ON!
+                      <br><br>
+                      Four managers have been sacked already: Can you predict the next manager at each of these clubs?
+                      <br><br>
+                      Clubs have reinforced their team with new players during the transfer window and fans have started seeing the new signing play and even score goals. Can you tell who the highest goal scorer will be?
+                      <br><br>
+                      Your customers are eager to put their money where their mouth is, and you can make it easy for them to win. Go ahead, enable your customers to bet on their preferred teams and players. 
+                      <br><br>
+                      Our platform is connected to every major biller, offering your customers the convenience to fund their betting wallets and place bets with ease.
+                    </p>
+                    <table class="intercom-container intercom-align-center" align="center" style="border-collapse: collapse; border-spacing: 0; margin: 10px auto; margin-bottom: 40px;table-layout: fixed; text-align: center !important">
+                      <tbody>
+                        <tr>
+                          <td style="background-color: #00b8de; border: 1px none #dadada; border-radius: 8px; font-family: 'Averta', 'Inter', sans-serif; font-size: 16px; margin: 0; padding: none; text-align: left; vertical-align: top; " align="left" bgcolor="#644BFF" valign="top"><a class="intercom-h2b-button" target="_blank" href="https://docs.interswitchgroup.com/reference/get-billers-by-category-1" style="background-color: #00b8de; border: none; border-radius: 8px; color: white; display: inline-block; font-size: 16px; font-weight: 600; outline: none !important; padding: 15px 48px; text-decoration: none">Get Billers</a></td>
+                        </tr>
+                      </tbody>
+                    </table> -->
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Footer -->
+    <table width="100%" class="footer" align="middle" style="border-collapse: separate; border-spacing: 0; table-layout: fixed">
+      <tbody>
+        <tr>
+          <td style="font-family: 'Averta', 'Inter', sans-serif; font-size: 16px; padding: 0">
+            <table cellspacing="0" border="0" cellpadding="0" align="center" width="600" bgcolor="transparent" class="main" style="border-collapse: separate; border-radius: 10px; border-spacing: 0; font-family: 'Averta', 'Inter', sans-serif; letter-spacing: 0; table-layout: fixed">
+              <tbody>
+                <tr>
+                  <td class="footer-td" style="font-family: 'Averta', 'Inter', sans-serif; font-size: 16px; padding: 21px 30px 15px; text-align: center" align="center">
+                    <p href="#" style="border: none; color: #9095A2; font-size: 12px; font-weight: 300; outline: none !important; text-decoration: none">Quickteller Business</p>
+                    <p href="#" style="border: none; color: #9095A2; font-size: 12px; font-weight: 300; outline: none !important; text-decoration: none">1648C Oko Awo Street,
+                      Victoria Island, Lagos</p>
+                    <a href="#" style="border: none; color: #9095A2; font-size: 12px; font-weight: 300; outline: none !important; text-decoration: none">Unsubscribe from our emails</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+   
+     </body>
+</html>
