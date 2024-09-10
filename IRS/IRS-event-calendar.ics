@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:1.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Nigerian Revenue Summit\nDate and Time - September 14\, 2023 10:00 AM to 5:00 PM\nVenue - The Wells Carlton\, Abuja\, Nigeria\nWe can't wait to see you at the Nigerian Revenue Summit.\n
+DTSTART:20230513T080000Z
+DTEND:20230513T160000Z
+LOCATION:The Wells Carlton, Abuja, Nigeria
+SUMMARY;LANGUAGE=en-us:The Nigerian Revenue Summit
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+TRIGGER:-PT1000M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

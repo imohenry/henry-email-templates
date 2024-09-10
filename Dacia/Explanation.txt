@@ -1,0 +1,14 @@
+Hello, 
+
+Here is my assessment, it covers the Dacia newsletter. 
+
+Major implementations:
+
+1. Dark mode
+2. Responsive design 
+3. Links
+4. The main email development
+
+Time taken to implement: 
+
+Approximately, 19hrs
